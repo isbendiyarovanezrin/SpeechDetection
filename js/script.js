@@ -12,11 +12,11 @@ function writeText(e) {
     .map((result) => result.transcript)
     .join("");
 
-  const regex = /hello|hi|heart|poop/gi;
+  const regex = /hello|hi|heart|poop|poo|/gi;
   const emojiScript = transcript.replace(regex, function (match) {
     return match == "hello" || match == "hi"
       ? "👋🏻"
-      : "" || match == "poop"
+      : "" || match == "poop" || match == "poo"
       ? "💩"
       : "" || match == "heart"
       ? "🧡"
