@@ -25,8 +25,8 @@ body {
 
 .texts {
   position: relative;
-  min-height: 10rem;
-  min-width: 35rem;
+  min-height: 9.4rem;
+  min-width: 45rem;
   max-width: 70rem;
   background: linear-gradient(#daeef8 0.09rem, transparent 0.1rem), #ffffff;
   background-size: 100% 3.1rem;
